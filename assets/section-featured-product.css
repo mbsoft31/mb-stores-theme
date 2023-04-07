@@ -33,7 +33,7 @@
 }
 
 .share-button + .product__view-details::after {
-  content: "";
+  content: '';
   clear: both;
   display: table;
 }
@@ -49,7 +49,9 @@
 }
 
 @media screen and (min-width: 990px) {
-  .background-secondary .featured-product:not(.product--no-media) > .product__info-wrapper {
+  .background-secondary
+    .featured-product:not(.product--no-media)
+    > .product__info-wrapper {
     padding: 0 0 0 5rem;
   }
 
